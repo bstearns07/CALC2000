@@ -53,7 +53,6 @@
            PERFORM 100-calculate-future-value
            COMPUTE investment-amount = investment-amount * 2.
            PERFORM 100-calculate-future-value
-           display "".
            display "End of session.".
            stop run.
 
@@ -96,3 +95,4 @@
            MOVE "Future Value:" TO label-part-dec
            MOVE future-value    TO value-part-dec
            DISPLAY display-line-decimal.
+           DISPLAY "".
