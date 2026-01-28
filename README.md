@@ -8,8 +8,7 @@
 - [Maintainers](#maintainers)
 
 ## Summary
-Welcome to the Future Value Calculator!
----------------------------------------
+### Welcome to the Future Value Calculator!
 This is a simple COBOL program designed to calculate the future value of a fixed investment over a fixed number of years in a printed report<br>
 <br>
 For every run, the program will:
@@ -17,6 +16,7 @@ For every run, the program will:
   2. Double the initial investment, recalculate, and outputs a second report
   3. Double the investment again, recalculate, and outputs a third report
 
+For full program details, see <a href="https://github.com/bstearns07/CALC2000/blob/main/assets/AssignmentRequirements.pdf">Program Requirements</a>
 ## Screenshots
 
 ### Output
