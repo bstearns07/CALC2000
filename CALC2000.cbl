@@ -2,9 +2,10 @@
 
        program-id. calc2000.
       ******************************************************************
-      * Title........: CALC2000 - Future Value Calculator
-      * Programmer...: Ben Stearns
-      * Date.........: 1-28-26
+      * Title..........: CALC2000 - Future Value Calculator
+      * Programmer.....: Ben Stearns
+      * Date...........: 1-28-26
+      * GitHub URL.....: https://github.com/bstearns07/CALC2000
       * Program Desc...: Calculates future value of an investment
       * File Desc......: Define the sole source code for app
       ******************************************************************
@@ -32,15 +33,18 @@
       *     05  edited-decimal-value        pic zzz,zzz.99.
 
       * Define procedures to displaying formatted report lines
-      * Used AI for idea as I couldn't output alignment info elsewhere
+      * Got idea online as I couldn't find alignment info in book
        01  display-line-whole.
-      *    Define a label that spans a fixed 28 characters in length
-           05  label-part-whole   pic X(28).
+      *    Define a label that spans a fixed 24 characters in length
+           05  label-part-whole   pic X(24).
+      *    Define a filler for the equal sign     
+           05  filler-sign        pic X(4)            value "=".
       *    Use remaining portion of the line used for the value
            05  value-part-whole   pic Z,ZZZ,ZZ9.
 
        01  display-line-decimal.
-           05  label-part-dec     pic X(25).
+           05  label-part-dec     pic X(24).
+           05  filler-sign        pic X              value "=".
            05  value-part-dec     pic Z,ZZZ,ZZ9.99.
 
 
@@ -77,22 +81,22 @@
        140-display-values.
 
            DISPLAY "-------------------------------------".
-           
+
       *    MOVE label text and value to display line structures
-      *    Then DISPLAY the line structure for proper alignment   
-           MOVE "Investment Amount:" TO label-part-whole
+      *    Then DISPLAY the line structure for proper alignment
+           MOVE "Investment Amount" TO label-part-whole
            MOVE investment-amount   TO value-part-whole
            DISPLAY display-line-whole
 
-           MOVE "Number of Years:" TO label-part-whole
+           MOVE "Number of Years" TO label-part-whole
            MOVE number-of-years    TO value-part-whole
            DISPLAY display-line-whole
 
-           MOVE "Yearly Interest Rate:" TO label-part-dec
+           MOVE "Yearly Interest Rate" TO label-part-dec
            MOVE yearly-interest-rate    TO value-part-dec
            DISPLAY display-line-decimal
 
-           MOVE "Future Value:" TO label-part-dec
+           MOVE "Future Value" TO label-part-dec
            MOVE future-value    TO value-part-dec
            DISPLAY display-line-decimal.
            DISPLAY "".
