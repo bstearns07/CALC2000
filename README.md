@@ -6,17 +6,21 @@
 
 # CALC2000 (COBOL) - Future Value Calculator
 
+## 👤 Author
+[@bstearns07](https://github.com/bstearns07) Ben Stearns
+
+---
+
 <b>Table of Contents</b>
-- [Summary](#-summary)
-- [How It Works](#how-it-works)
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Development Tools](#development-tools)
-- [Core Concepts](#-core-concepts)
-- [New Topics Covered](#new-topics-covered)
-- [What I Learned](#-what-i-learned)
-- [Screenshots](#-screenshots)
-- [Maintainers](#-maintainers)
+- 📌[Summary](#-summary)
+- ⭐[How It Works](#-how-it-works)
+- ✨[Features](#-features)
+- 🧰[Tech Stack](#-tech-stack)
+- 🔧[Development Tools](#-development-tools)
+- 🧩[Core Concepts](#-core-concepts)
+- 📝[New Topics Covered](#-new-topics-covered)
+- 📘[What I Learned](#-what-i-learned)
+- 🖼[Screenshots](#-screenshots)
 
 ## 📌 Summary
 ### Welcome to the Future Value Calculator!
@@ -29,7 +33,7 @@ For every run, the program will:
 
 For full program details, see <a href="https://github.com/bstearns07/CALC2000/blob/main/assets/AssignmentRequirements.pdf">Program Requirements</a>
 
-## How It Works
+## ⭐ How It Works
 1. Download/copy the code from CALC2000.cbl and JCL files on your mainframe environment
 2. Submit the JCL job to compile the program
 3. View the system output of your submitted job to view the results
@@ -58,7 +62,7 @@ For full program details, see <a href="https://github.com/bstearns07/CALC2000/bl
 
 ---
 
-## Development Tools
+## 🔧 Development Tools
 - 💻 **Visual Studio Code** with **Zowe Explorer** for remote mainframe development  
 - 🖥️ **IBM Mainframe (z/OS)** for compiling and execution  
 - 📦 **Partitioned Datasets (PDS)** for source and program storage  
@@ -75,7 +79,7 @@ For full program details, see <a href="https://github.com/bstearns07/CALC2000/bl
 
 ---
 
-## New Topics Covered
+## 📝 New Topics Covered
 1. Developing COBOL programs for the mainframe environment
 2. Variables and arithmatic
 3. Loops
@@ -95,9 +99,5 @@ This program introduced me to how COBOL can be used to perform basic arithmetic 
 ### Output
 ![Output](assets/output.png)
 
----
-
-## 👤 Maintainers
-[@bstearns07](https://github.com/bstearns07) Ben Stearns
 
 [Back to Top](#top)
