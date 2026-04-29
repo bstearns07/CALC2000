@@ -2,7 +2,7 @@
 ![COBOL](https://img.shields.io/badge/COBOL-Enterprise%206.4-blue?style=flat-square)
 ![JCL](https://img.shields.io/badge/JCL-Batch%20Processing-grey?style=flat-square)
 ![z/OS](https://img.shields.io/badge/IBM-z%2FOS-0f62fe?style=flat-square)
-![VS Code](https:
+![VS Code](https://img.shields.io/badge/VS%20Code-Zowe%20Explorer-007ACC?style=flat-square)
 
 # CALC2000 (COBOL) - Future Value Calculator
 
@@ -29,7 +29,7 @@ For every run, the program will:
 
 For full program details, see <a href="https://github.com/bstearns07/CALC2000/blob/main/assets/AssignmentRequirements.pdf">Program Requirements</a>
 
-⚙️ How It Works
+## ⚙️ How It Works
 1. Download/copy the code from CALC2000.cbl and JCL files on your mainframe environment
 2. Submit the JCL job to compile the program
 3. View the system output of your submitted job to view the results
